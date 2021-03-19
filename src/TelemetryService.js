@@ -35,6 +35,7 @@ const createTelemetryService = () => {
                 extensionConfig: {
                     [reactPlugin.identifier]: {
                         history: browserHistory
+                        
                     }
                 }
             }
